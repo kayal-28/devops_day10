@@ -8,5 +8,5 @@ jobs:
       -name: Checkout code
     uses: actions/checkout@v3
        
-       -name: Runscript
-        run: echo "Hello Devops CI/CD pipeline"
+      -name: Runscript
+    run: echo "Hello Devops CI/CD pipeline"
