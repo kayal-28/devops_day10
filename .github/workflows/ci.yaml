@@ -4,8 +4,8 @@ on: [push]
 jobs:
    build:
     runs-on: ubuntu-latest
-steps:
-   -name: checkout code
-   uses: action/checkout@v3
-   -name: Run script
-   run: echo "Hello Devops CI/CD pipeline"
+    steps:
+      -name: checkout code
+       uses: action/checkout@v3
+      -name: Run script
+       run: echo "Hello Devops CI/CD pipeline"
