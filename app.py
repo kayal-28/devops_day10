@@ -1,1 +1,1 @@
-print ("CI/CD pipleine is running")
+print("CI/CD pipleine is running")
