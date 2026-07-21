@@ -1,6 +1,7 @@
 name: Python CI
 on: [push]
-jobs:
+
+ jobs:
    build:
        runs-on: ubuntu-latest
       steps:
