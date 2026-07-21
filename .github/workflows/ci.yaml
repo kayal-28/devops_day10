@@ -1,15 +1,13 @@
 name: Python CI
 on: [push]
-
- jobs:
+jobs:
    build:
        runs-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@v3
-      
-      - name: setup python
-        uses: actions/setup-python@v4
-        with:
-              python-version:3.10
-      - name: Run python script
-      run: app.py
+       steps:
+          - uses: actions/checkout@v3
+          - name: setup python
+            uses: actions/setup-python@v4
+            with:
+               python-version: 3.10
+          - name: Run python script
+            run: app.py
