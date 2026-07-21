@@ -10,4 +10,4 @@ jobs:
             with:
                python-version: 3.12
           - name: Run python script
-            run: app.py
+            run: devops_day10/app.py
